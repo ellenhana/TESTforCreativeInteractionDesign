@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>0315 TEST 1 </title>
+  <meta-charset="UTF-8">
+  <style type="text/css">
+    .tst1 {padding:40px;background-color: orange;}
+    .container1 {position:relative;margin:30px;border:solid 5px orange;padding:10px;}
+    .container2 {margin:30px;border:solid 5px orange;padding:10px;}
+    .box1 {width:100px;height:100px;background:lavender}
+    .box2 {width:100px;height:100px;background:lemonchiffon;border:orange solid;position:relative;left:20px;top:20px;}
+    .box3 {width:100px;height:100px;background:lightpink}
+    .box4 {width:100px;height:100px;background:lightsalmon}
+    .box5 {width:100px;height:100px;background:lemonchiffon;border:orange solid;position:absolute;left:40px;top:60px;}
+    .box6 {width:100px;height:100px;background:lemonchiffon;border:orange solid;position:absolute;left:20px;top:2010px;}
+    #try1 {padding-left: 1em;}
+    .try2 {text-align:center;}
+  </style>
+</head>
+<body>
+  <div>
+    <h2 class="tst1">The padding is set with a single value. When the text reaches the right side padding area, it will wrap around instead of entering the padding area.</h2>
+  </div>
+  <div class="try2">
+    <img class="tst1" src="cici.jpg" alt="cici">
+  </div>
+  <h1 id="try1" style="background-color:orange;color:white;">Relative Positioning Example</h1>
+    <div class="container1">
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+      <div class="box4"></div>
+    </div>
+  <h1 id="try1" style="background-color:orange;color:white;">Absolute Positioning Example</h1>
+    <div class="container1">
+      <div class="box1"></div>
+      <div class="box5"></div>
+      <div class="box3"></div>
+      <div class="box4"></div>
+    </div>
+  <h1 id="try1" style="background-color:orange;color:white;">Relative Positioning Example & viewport</h1>
+    <div class="container2">
+      <div class="box1"></div>
+      <div class="box6"></div>
+      <div class="box3"></div>
+      <div class="box4"></div>
+    </div>
+</body>
